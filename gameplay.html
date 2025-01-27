@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gameplay.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./image/logo.png" alt="Logo">
+            </div>
+            <div class="links-container">
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="gameplay.html">Game Play</a>
+                    <a href="">Contacts</a>
+                </div>
+                <a href="https://3in1.infinityfreeapp.com/3sudoku/?i=2" target="_blank" rel="noreferrer">
+                    <button class="buttons">Play Now</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/chessss.jpg">
+                <div class="content">
+                    <div class="title">MAKING A MOVE</div>
+                    <div class="topic">Gameplay</div>
+                    <div class="des">
+                        <p>When placing a tile, there should be no repetition of a color, shape or number on the location&#39;s row, column and 3x3 block.</p>
+                        <p>There are 2 valid reasons to place a tile:</p>
+                        <ol>
+                            <li>There is a spot where only one of the tiles in the rack can be placed. Any other tile will repeat a color, shape or number.</li>
+                            <li>A tile may be placed on only one location. Anywhere else on the puzzle grid, the tile will repeat a color, shape of number.</li>
+                        </ol>
+
+                        <p>Avoid guessing. It will be difficult to trace a mistake and undo the moves.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/chessss.jpg">
+                <div class="content">
+                    <div class="title">TECHNIQUES</div>
+                    <div class="topic">Gameplay</div>
+                    <div class="des">
+                        <p>Fill in a blank in a row, column or 3x3 block:</p>
+                        <ol>
+                            <li>Search for a row, column or 3x3 block with 8 clues.</li>
+                            <li>Rack by number. Count off the numbers in the row, column or block.</li>
+                            <li>Choose from the rack the missing color.</li>
+                            <li>There may be more than one tile of a color, then choose the missing shape</li>
+                        </ol>
+                        <p>Rearrange the racks by color to find a single tile of a color on the racks. Find the location on the grid where that color won't repeat. Sort by Shape and then Number</p>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/chessss.jpg">
+                <div class="content">
+                    <div class="title">SUDOKU SCANNING</div>
+                    <div class="topic">Techniques</div>
+                    <div class="des">
+                        <p>Look for a number that occurs 2 times on the top 3 rows.
+                            <ol>
+                                <li>Check if the number can only be placed on one square on the row.</li>
+                                <li>Choose from the tiles in the rack. If only one is good, place it.</li>
+                            </ol>
+                        </p>
+                        <p>Do as above for the middle 3 rows, and for the bottom 3 rows.</p>
+                        <p>Do as above for the left 3 columns, the middle 3 columns and the right 3 columns.</p>
+                        <p>Do as the three above for colors and shapes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/chessss.jpg">
+                <div class="content">
+                    <div class="title">FULL SCAN</div>
+                    <div class="topic">Techniques</div>
+                    <div class="des">
+                        <p>Rank by color
+                            <ol>
+                                <li>Choose a color with a few tiles on the rack (1, 2, or 3).</li>
+                                <li>Move the leftmost tile on the rack to the end. This is reminder of the color to work with.</li>
+                                <li>Find the squares on the grid where the color may be placed. Note that: the number of tiles to place is equal to the number of rows, columns and blocks without that color.</li>
+                                <li>Move the bullseye around the puzzle to better visualize where the tiles may be placed.</li>
+                                <li>Figure out if the tiles can be placed, without guessing. Place them accordingly.</li>
+                            </ol>
+                        </p>
+                        <p>Do as above for other "short" colors.</p>
+                        <p>Do as the two above by shape and by number.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/chessss.jpg">
+                <div class="content">
+                    <div class="title">POTHOLES</div>
+                    <div class="topic">Techniques</div>
+                    <div class="des">
+                        <p>This requires a work area among the racks for temporary placement of candidate tiles. Rack by number.</p>
+                        <ol>
+                            <li>Find a row, column or block with a few "potholes" (empty squares).</li>
+                            <li>Count off the missing numbers.</li>
+                            <li>Find the candidate tiles in the racks.</li>
+                            <li>Move them to the work area.</li>
+                            <li>Find the combination of tiles that "are Sudoku".</li>
+                            <li>Place the tiles in the row, column or block.</li>
+                            <li>Rack by number to return the unused tiles to the proper racks.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/game.png">
+                <div class="content">
+                    <div class="title">
+                        Making a Move
+                    </div>
+                    <div class="description">
+                        How to start? How to proceed?
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/game.png">
+                <div class="content">
+                    <div class="title">
+                        Techniques
+                    </div>
+                    <div class="description">
+                        Rules associated to the classic game.
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/number.png">
+                <div class="content">
+                    <div class="title">
+                        Scanning Technique
+                    </div>
+                    <div class="description">
+                        Learn the basic technique to succeed!
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/color.png">
+                <div class="content">
+                    <div class="title">
+                        Full Scan Technique
+                    </div>
+                    <div class="description">
+                        A masterful technique ranking by color!
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/shape.png">
+                <div class="content">
+                    <div class="title">
+                        Potholes Technique
+                    </div>
+                    <div class="description">
+                        For Extra challenge try the temporary placement of candidate tiles.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
