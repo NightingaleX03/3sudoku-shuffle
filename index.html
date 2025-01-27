@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Ultimate Number Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,8 +26,46 @@
     </header>
 
     <main>
-        <h1>Welcome to the Game</h1>
-        <p>Get ready to play and have fun!</p>
+        <section class="intro">
+            <video autoplay loop muted playsinline class="background-video">
+                <source src="./image/intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="intro-left">
+                <div class="content-box">
+                    <h1 id="intro-text">
+                        <span class="large-text">The Ultimate Number Game</span><br />
+                        <span>The place for your brain to get teased!</span>
+                    </h1>
+                    
+                    <a href="https://3in1.infinityfreeapp.com/3sudoku/?i=2" target="_blank" rel="noreferrer">
+                        <button class="buttons2">Play Now</button>
+                    </a>
+                </div>
+            </div>
+            <div class="intro-right"></div>
+          </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Left Column -->
+            <div class="footer-left">
+                <img src="./image/logo.png" alt="Logo" class="footer-logo">
+                <p class="footer-message">Thank you for stopping by!</p>
+            </div>
+
+            <!-- Right Column -->
+            <div class="footer-right">
+                <p class="footer-created-by">Created by: Author Name</p>
+                <p class="footer-date">2025/01/26</p>
+                <div class="footer-icons">
+                    <a href="" target="_blank" class="footer-icon">
+                        <img src="./image/instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
